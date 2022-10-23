@@ -30,9 +30,9 @@
 
 // let p = document.querySelector("p")
 
-// let p = document.querySelectorAll("h1")
+let p = document.querySelectorAll("p")
 
-// console.log(p);
+console.log(p);
 
 //  child
 

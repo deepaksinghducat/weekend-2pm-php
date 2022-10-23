@@ -91,6 +91,21 @@
 
 
 
+// let func1 = () => {
+//     let a = 10;
+//     let b = 20;
+    
+//     return () => {
+//         console.log(a + b);
+//     }
+// }
+
+// let parentFun = func1()
+
+// console.log(parentFun());
+
+
+
 
 
 

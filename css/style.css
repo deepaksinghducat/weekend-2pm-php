@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* syntax */
+
+/* selector */
+
+/* how to use css */
+
+/* comments */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* 
+   color 
+   color by name
+   hexadeciaml
+   rgb
+   hsl
+*/
+
+/* .p {
+    background-color: hsl(240, 50%, 50%);
+    /* color: #fff; */
+    /* color: rgb(255, 255, 255); */
+/* }  */
+
+
+/* 
+    background
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+    background
+    opacity
+
+    background: #ffffff url("img_tree.png") no-repeat right top; shorthand
+ */
+
+
+#container {
+    width: auto;
+    height: 120px;
+    background-color: red;
+    font-size: 32px;
+    /* background-image: url('./bannerimage.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.5; */
+ }
+
+
+ /* 
+    border
+    border-style
+    border-width
+    border-color
+    border: 5px solid red;
+    border-radius
+ */
+
+ #container {
+    /* border: 2px solid red; */
+    /* border-left-width: 5px;
+    border-left-color: red;
+    border-left-style: dashed;
+    border-radius: 10px; */
+ }
+
+ /* 
+    margin
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+ */
+
+ #container {
+    /* margin: 10px 15px 20px 25px; */
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+
+    /* margin: 10px auto; */
+ }
+
+ /* 
+    padding
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+ */
+
+ #container  {
+    padding: 10px;
+ }
+
+ /* 
+    height & width
+    auto - This is default. The browser calculates the height and width
+    length - Defines the height/width in px, cm, etc.
+    % - Defines the height/width in percent of the containing block
+    initial - Sets the height/width to its default value
+    inherit - The height/width will be inherited from its parent value
+ */
+
+
+
+
+
+ /* 
+    Outline
+    outline-style
+    outline-color
+    outline-width
+    outline-offset
+    outline
+ */
+
+ #container {
+    /* outline: 5px dashed black;
+    border: 5px solid green; */
+ }
+
+ /* 
+    Text
+    color
+    background-color
+    text-align
+    text-decoration
+    text-transform
+    text-indent
+    letter-spacing
+    line-height
+    word-spacing
+    white-space
+    text-shadow
+ */
+
+ .p {
+    /* color: green; */
+    /* padding: 10px; */
+    /* background-color: black; */
+    /* text-align:center;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+    word-spacing: 14px;
+    white-space: none; */
+    /* text-shadow: 0px 0px red; */
+ }
+
+ /* a {
+    text-decoration: none;
+ } */
+
+ /* 
+    Font
+    font-family
+    font-style
+    font-size
+    font-family: Verdana, sans-serif;
+    font: 20px Arial, sans-serif;
+ */
+
+
+ p {
+    /* font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    font-style: italic; */
+ }
+
+ /* 
+    icons 
+    bootstrap 
+    material 
+    fontawesome 
+ */
+
+ /* 
+    Link
+    :visited
+    :hover
+    :active
+
+    text-decoration
+ */
+
+ a {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    /* cursor:crosshair; */
+ }
+
+ a:hover {
+    background-color: #000;
+ }
+
+ /* a.active {
+    background-color: green;
+ } */
+
+ /* 
+    list
+    list-style-type
+    list-style-image
+    list-style-position
+ */
+
+ ul {
+    /* list-style:none; */
+    /* list-style-image: url('./bannerimage.png'); */
+    /* list-style-position: outside; */
+ }
+
+ /* 
+    table
+    border
+    border-collapse
+    width
+    height
+    text-align
+    overflow
+ */
+
+ table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+ }
+ 
+ table thead tr th ,  table tbody tr td {
+    border: 1px solid red;
+ }
+
+ /* 
+    display
+    block
+    inline
+    inline-block
+    none
+    visibility
+ */
+
+ /* 
+    max width
+ */
+
+ /* 
+    position
+    static
+    relative
+    fixed
+    absolute
+    static
+    sticky
+    z-index
+ */
+
+ /* 
+    overflow
+    visible
+    hidden
+    scroll
+    auto
+ */
+
+ /* 
+    float
+    left
+    right
+    bottom
+    top
+ */
+
+ /* 
+    clear
+    left
+    right
+    bottom
+    top
+ */
+
+ /* 
+    Descendant Selector
+    div p {}
+
+    Child Selector (>)
+    div > p {}
+
+    Adjacent Sibling Selector (+)
+    div + p {}
+
+    General Sibling Selector (~)
+    div ~ p {}
+ */
+
+ /* 
+    Pseudo-classes
+
+    selector:pseudo-class {
+        property: value;
+    }
+
+    :first-child
+    :visited
+    :hover
+    :hover
+    :active
+
+    ::pseudo-element
+    ::first-line
+    ::first-letter
+    ::after
+    ::marker
+    ::selection
+    The following CSS properties can be applied to ::selection: color, background, cursor, and outline.
+ */
+
+ /* 
+    opacity
+ */
+
+ /* 
+    Input
+
+    input[type=text] - will only select text fields
+    input[type=password] - will only select password fields
+    input[type=number] - will only select number fields
+ */
+
+ /* 
+    body {
+        counter-reset: section;
+    }
+
+    h2::before {
+        counter-increment: section;
+        content: "Section " counter(section) ": ";
+    }
+ */
+
+ /* 
+    CSS Units
+    px
+    em
+    rem
+    vh
+    vw
+ */
+
+
+ /* 
+   CSS Rounded Corners
+
+   border-radius
+   left
+   right
+   top
+   bottom 
+ */
+
+ /* 
+   CSS Border Images
+    
+   border-image
+ */
+
+ /* 
+   CSS Multiple Backgrounds
+    
+   background-size
+   background-origin
+   background-clip
+
+   background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+ */
+
+ /* 
+   CSS Shadow Effects
+   
+   text-shadow
+   box-shadow
+ */
+
+ /* 
+   CSS Text Effects
+
+   text-overflow
+   word-wrap
+   word-break
+   writing-mode
+ */
+
+ /* 
+   CSS 2D Transforms 
+
+   translate()
+   rotate()
+   scaleX()
+   scaleY()
+   scale()
+   skewX()
+   skewY()
+   skew()
+   matrix()
+*/
+
+/* 
+   CSS 3D Transforms
+
+   rotateX()
+   rotateY()
+   rotateZ()
+*/
+
+/* 
+   CSS Transitions
+
+   transition
+   transition-delay
+   transition-duration
+   transition-property
+   transition-timing-function
+
+   transition-timing-function
+   ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+   linear - specifies a transition effect with the same speed from start to end
+   ease-in - specifies a transition effect with a slow start
+   ease-out - specifies a transition effect with a slow end
+   ease-in-out - specifies a transition effect with a slow start and end
+   cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+*/
+
+/* 
+   CSS Animations
+
+   @keyframes
+   animation-name
+   animation-duration
+   animation-delay
+   animation-iteration-count
+   animation-direction
+   animation-timing-function
+   animation-fill-mode
+   animation
+
+*/

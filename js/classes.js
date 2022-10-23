@@ -1,18 +1,18 @@
 // class
-// class Car {
-//     wheel = 4;
-//     model = 2022;
+class Car {
+    wheel = 4;
+    model = 2022;
     
-//     constructor(brand) {
-//         this.brand = brand;
-//     }
+    constructor(brand) {
+        this.brand = brand;
+    }
 
-//     details() {
-//         return "fdasfasf";
-//     }
-// }
+    details() {
+        return "fdasfasf";
+    }
+}
 
-// let car = new Car('tata');
+let car = new Car('tata');
 
 // inheritance
 
@@ -32,7 +32,10 @@
 //     }
 // }
 
-// let tat = new tata()
+// let tat = new tata()  
 
 // console.log(tat.details());
+
+
+let array = [100,200, 30, 80, 10, 55,82];
 
