@@ -88,7 +88,7 @@
 
 // console.log(slicedArray,array);
 
-let array = [10,20,30];
+// let array = [10,20,30];
 
 // includes
 // console.log(array.includes(30));
@@ -101,21 +101,41 @@ let array = [10,20,30];
 
 // reduce 
 
-let sum = array.reduce((sum,value) => sum + value, 0);
+// let sum = array.reduce((sum,value) => sum + value, 0);
 
 
-console.log(sum);
+// console.log(sum);
+
+// let array = [20,30,40,50,60,70,20,50,70,70];
+
+// let findValue = array.find((value, index, arr) => {
+//     return value === 20;
+// })
+
+// let mapedArray = array.map((value) => value + 20);
+
+// console.log(mapedArray, array);
+
+// let filterArray = array.filter((value) => value === 70);
+
+// console.log(filterArray);
 
 
+// let array = [20,30,40,50,60,70,20,50,70,70];
 
+// let newArray = [];
 
+// for (const val of array) {
+    
+//     if(newArray.indexOf(val) > -1 ){
 
+//     }else{
 
+//        newArray.push(val);
+//     }
+// }
 
-
-
-
-
+// console.log(newArray);
 
 
 
